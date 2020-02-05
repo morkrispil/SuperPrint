@@ -1,5 +1,9 @@
+# https://github.com/morkrispil/SuperPrint
+# https://code.activestate.com/recipes/tags/meta:license=mit
+
 from time import time
 import psutil
+import threading
 from subprocess import check_output, call, CalledProcessError
 from datetime import datetime
 
